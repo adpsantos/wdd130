@@ -1,0 +1,31 @@
+a {
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+nav{
+    display: flex;
+}
+
+/* . for classes */
+.background{
+    background-color: white;
+}
+
+p{
+    background-color: white;
+}
+
+body {
+    background-color: darkblue;
+}
+
+/* # for IDs */
+#primary{
+    background-color: green;
+}
