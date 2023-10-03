@@ -7,6 +7,10 @@ a {
     text-align: center;
 
 }
+a :hover {
+    background-color: darkgrey;
+    color: white
+}
 
 nav{
     display: flex;
