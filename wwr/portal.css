@@ -1,11 +1,10 @@
-a {
+/* a {
     background-color: lightblue;
     color: black;
     text-decoration: none;
     padding: 18px;
     margin: 5px;
     text-align: center;
-
 
 a :hover {
     background-color: darkgrey;
@@ -15,12 +14,12 @@ a :hover {
 /* text align with center the content */
 /* margin will center the elements */
 /* * symbol will apply to the all the elements */
-nav{
+/* nav{
     display: flex;
 }
 
 /* . for classes */
-.background{
+/* .background{
     background-color: white;
 }
 
@@ -30,9 +29,4 @@ p{
 
 body {
     background-color: darkblue;
-}
-
-/* # for IDs */
-/* .primary{
-    background-color: green; 
 } */
