@@ -6,12 +6,15 @@ a {
     margin: 5px;
     text-align: center;
 
-}
+
 a :hover {
     background-color: darkgrey;
     color: white
 }
 
+/* text align with center the content */
+/* margin will center the elements */
+/* * symbol will apply to the all the elements */
 nav{
     display: flex;
 }
@@ -30,6 +33,6 @@ body {
 }
 
 /* # for IDs */
-#primary{
-    background-color: green;
-}
+/* .primary{
+    background-color: green; 
+} */
