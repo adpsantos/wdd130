@@ -1,12 +1,29 @@
-#content {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Young+Serif&display=swap');
+
+#content{
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
 }
 
-#background {
+#background{
     height: 725px;
     background-color: #75675b;
+}
+
+.home-title {
+    font-family: 'Young Serif' , 'Lato', sans-serif;
+    font-size: 3em;
+}
+
+.msg {
+    background-color: #096B72;
+    line-height: 1.5em;
+    font-family: 'Young Serif' , 'Lato', sans-serif;
+  }
+
+.msg p {
+    font-size: .8em;
 }
 
 /* pictures */
@@ -31,6 +48,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+    margin: 200px 0;
 }   
 
 nav a:hover{
@@ -45,6 +63,8 @@ nav a:hover{
     padding: 15px 32px;
     display: inline-block;
     border: none;
+    font-size: 18px;
+    margin-top: 50px;
 }
 
 .book:hover{
@@ -55,7 +75,16 @@ nav a:hover{
 
 body {
     background-color: white; 
+    font-family: 'Young Serif', 'Lato', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: #096B72;
 }            
@@ -64,6 +93,8 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 35px;
+
 }   
 
 nav a:hover{
@@ -71,10 +102,22 @@ nav a:hover{
     color: #75675b;
 }  
 
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
 .join {
     text-decoration: none;
     background-color: #096B72;
     color: white;
+    font-size: 19px;
 }
 
 .join:hover {
@@ -90,6 +133,7 @@ nav a:hover{
 /* footer */
 footer {
     background-color: #096B72;
+    margin-top: 200px;
 }
 
 footer a {
