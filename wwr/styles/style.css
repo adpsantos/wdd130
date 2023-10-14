@@ -32,11 +32,12 @@
 }
 
 .hero-img{
-    width: 800px;
+    width: 1000px;
 }
 
 .card-img{
     width: 800px;
+    border: 10px solid #75675b;
 }
 
 .icon{
@@ -113,6 +114,10 @@ nav a:hover{
     margin: 200px 0;
 }
 
+.mountains{
+    margin-top: 200px;
+}
+
 .join {
     text-decoration: none;
     background-color: #096B72;
@@ -128,12 +133,13 @@ nav a:hover{
 .msg{
     color: white;
     background-color: #096B72;
+    margin-top: 150px;
 }
 
 /* footer */
 footer {
     background-color: #096B72;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 footer a {
