@@ -1,61 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Playfair+Display:wght@600&display=swap');
 
-.sidenav {
+body {
+    background-color: #FFFFFA;
+    z-index: 0;
+}
+
+aside{
     height: 100%;
-    width: 160px;
+    width: 240px;
     position: fixed;
     z-index: 1;
+    background-color: #E63B3B;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.sidenav {
     top: 0;
     left: 0;
-    background-color: #F4D3BE;
-    overflow-x: hidden;
-    padding-top: 20px;
 }
-  
-.socials {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
+
+.socials p {
     bottom: 0;
     left: 0;
-    background-color: #F4D3BE;
-    overflow-x: hidden;
-    padding-bottom: 20px;
+    color: #F4D3BE;
 }
-  
+
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
-    color: #E63B3B;
+    font-size: 18px;
+    color: #F4D3BE;
     display: block;
+    margin: 10px 0;
 }
-  
+
+
 .sidenav a:hover {
     color: #FFFFFA;
 }
-  
+
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    margin-left: 150px ; 
+    font-size: 18px; 
+    padding: 20px 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
-  
-.h1{
+
+h1 {
+    color: #40434E;
+    grid-column: 2/4;
     text-align: center;
-    grid-column: 2/4;
-    grid-row: 1/2;
 }
-  
-.logo-gif{
-    grid-column: 2/4;
-    grid-row: 2/4;
+
+.logo-gif {
+    width: 100%;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
 }
-  
+
+.pantry{
+    width: 100%;
+}
+
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
 }
